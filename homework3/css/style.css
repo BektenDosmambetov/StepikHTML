@@ -1,0 +1,68 @@
+body {
+	width: 2011px;
+	font-family: Roboto;
+}
+.background_ppc {
+	width: 2011px;
+}
+
+h1 {
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+}
+
+h2 {
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+}
+
+article {
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+
+.main_message {
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.member_name {
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */s
+color: #007765;
+}
+
+.member_position {
+
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.background_copyright {
+
+}
+.copyright {
+font-weight: normal;
+font-size: 48px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
