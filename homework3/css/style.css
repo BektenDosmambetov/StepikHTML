@@ -1,68 +1,30 @@
+/* general style for all page */
 body {
 	width: 2011px;
-	font-family: Roboto;
+	font-family: Roboto
+	background-color: #EEEEEE;
 }
-.background_ppc {
+
+/* upper banner */
+div.background_ppc {
 	width: 2011px;
+	background-color: #007765;
+	padding: -10px;
+	margin: -10px;
+	display: inline-block;
+	position: fixed;
+	height: 84px;
+	}
+/*upper banner's logo and navigation panel*/
+.small_logo {
+	float: left;
+	margin-left: 210px;
+	margin-top: 20px;
 }
 
-h1 {
-font-weight: 500;
-font-size: 72px;
-line-height: 84px;
-text-align: center;
-}
-
-h2 {
-font-weight: 500;
-font-size: 64px;
-line-height: 75px;
-/* identical to box height */
-
-text-align: center;
-}
-
-article {
-font-weight: normal;
-font-size: 32px;
-line-height: 37px;
-color: #000000;
-}
-
-.main_message {
-font-style: italic;
-font-weight: 500;
-font-size: 48px;
-line-height: 56px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.member_name {
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */s
-color: #007765;
-}
-
-.member_position {
-
-font-style: italic;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
-}
-
-.background_copyright {
-
-}
-.copyright {
-font-weight: normal;
-font-size: 48px;
-line-height: 21px;
-text-align: center;
-color: #FFFFFF;
+.upper_nav {
+	float: left;
+	margin-left: 500px;
+	margin-top: 24px;
+	font-size: 24px;
 }
