@@ -1,30 +1,80 @@
 /* general style for all page */
 body {
-	width: 2011px;
+	width: 1219px;
+	margin: 0;
+	padding: 0s;
 	font-family: Roboto
 	background-color: #EEEEEE;
 }
 
 /* upper banner */
 div.background_ppc {
-	width: 2011px;
+	width: 1219px;
 	background-color: #007765;
-	padding: -10px;
-	margin: -10px;
-	display: inline-block;
 	position: fixed;
 	height: 84px;
 	}
 /*upper banner's logo and navigation panel*/
 .small_logo {
+	display: block;
 	float: left;
-	margin-left: 210px;
+	margin-left: 55px;
 	margin-top: 20px;
 }
 
 .upper_nav {
-	float: left;
-	margin-left: 500px;
+	display: inline-block;
+	float: right;
+	margin-right: 55px;
 	margin-top: 24px;
 	font-size: 24px;
+}
+
+h1, h2, p {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+h1 {
+	height: 75px;
+	left: 55px;
+	top: 535px;
+
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+h2 {
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+p {
+	font-size: 32px;
+	line-height: 37px;
+}
+
+img.background_ppc {
+	width: 1219px;
+	height: 403px;
+}
+
+.team_pic {
+	display: inline-block;
+	width: 300px;
+	height: 233px;
+	margin: 0;
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+#copyright {
+	background-color: #333333;
+	color: white;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
 }
